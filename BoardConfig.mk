@@ -63,6 +63,7 @@ PRODUCT_BOOT_JARS += org.simalliance.openmobileapi
 
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+WITH_DEXPREOPT := true
 
 # inherit from the proprietary version
 -include vendor/leeco/zl1/BoardConfigVendor.mk
